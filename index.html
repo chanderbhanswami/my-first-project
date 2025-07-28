@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basilico | Italian Kitchen</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <h1 class="logo">Basilico</h1>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="nav-toggle">&#9776;</button>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Authentic Italian Dining</h2>
+      <p>Experience traditional flavors in a modern setting.</p>
+      <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+  </section>
+
+  <section id="menu" class="menu">
+    <div class="container">
+      <h3>Today's Specials</h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <h4>Margherita Pizza</h4>
+          <p>Classic tomato, mozzarella, and basil</p>
+        </div>
+        <div class="menu-item">
+          <h4>Fettuccine Alfredo</h4>
+          <p>Creamy parmesan sauce over fresh pasta</p>
+        </div>
+        <div class="menu-item">
+          <h4>Bruschetta</h4>
+          <p>Grilled bread, tomatoes, garlic & olive oil</p>
+        </div>
+        <div class="menu-item">
+          <h4>Tiramisu</h4>
+          <p>Espresso-soaked ladyfingers with mascarpone</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h3>Our Story</h3>
+      <p>Basilico brings you a taste of Italy in every dish. Founded by Chef Luca Romano, our restaurant honors generations of Italian tradition with fresh ingredients and heartwarming hospitality.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h3>Reserve a Table</h3>
+      <form id="reservation-form">
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="date" required />
+        <input type="time" required />
+        <button type="submit">Book Now</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Basilico Restaurant. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
